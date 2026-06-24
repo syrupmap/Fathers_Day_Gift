@@ -6,9 +6,8 @@ import { useRef } from 'react'
 import React from 'react'
 import { useGLTF, PerspectiveCamera } from '@react-three/drei'
 
-export function Model({ characterRef, ...props }) {
+export function Model({ characterRef, bikeRef, frontWheelRef, backWheelRef, airplaneRef, motercycleRef, motercycleBackRef, motercycleFrontRef, ...props }) {
   const { nodes, materials } = useGLTF('/babagift_compressed.glb')
-  // const characterRef = useRef()
   return (
     <group {...props} dispose={null}>
       {/* <pointLight intensity={54351.413} decay={2} position={[4.076, 5.56, -1.005]} rotation={[-1.839, 0.602, 1.932]} /> */}
@@ -18,9 +17,11 @@ export function Model({ characterRef, ...props }) {
       <mesh geometry={nodes.mapletree.geometry} material={materials.mapletree} position={[-0.403, 0.835, 0.813]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={2.165} />
       <mesh geometry={nodes.mapletree001.geometry} material={materials.mapletree} position={[0.828, 0.882, -0.793]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={2.165} />
       <mesh geometry={nodes.mapletree002.geometry} material={materials.mapletree} position={[-0.403, 0.825, -2.263]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={2.165} />
-      <mesh geometry={nodes.bike_seat.geometry} material={materials.bike_seat} position={[0, 0.305, 3.329]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} />
-      <mesh geometry={nodes.bikewheel_back.geometry} material={materials.bikewheel_back} position={[0.022, 0.139, 3.693]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.634} />
-      <mesh geometry={nodes.bikewheel_front.geometry} material={materials.bikewheel_front} position={[0.064, 0.107, 2.954]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.686} />
+      <group  >
+        <mesh ref={bikeRef} geometry={nodes.bike_seat.geometry} material={materials.bike_seat} position={[0, 0.305, 3.329]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} />
+        <mesh ref={backWheelRef} geometry={nodes.bikewheel_back.geometry} material={materials.bikewheel_back} position={[0.022, 0.139, 3.693]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.634} />
+        <mesh ref={frontWheelRef} geometry={nodes.bikewheel_front.geometry} material={materials.bikewheel_front} position={[0.064, 0.107, 2.954]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.686} />
+      </group>
       <mesh geometry={nodes.Grass.geometry} material={materials['Material.003']} position={[0.014, -0.037, -1.859]} scale={[1, 1, 7.725]} />
       <mesh geometry={nodes.grass.geometry} material={materials.grass} position={[-0.433, 0.198, 1.793]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.717} />
       <mesh geometry={nodes.grass001.geometry} material={materials.grass} position={[-0.506, 0.198, -0.607]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.717} />
@@ -60,7 +61,7 @@ export function Model({ characterRef, ...props }) {
       <mesh geometry={nodes.postit1.geometry} material={materials.postit1} position={[-0.944, 1.793, 1.937]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} />
       <mesh geometry={nodes.postit2.geometry} material={materials.postit2} position={[-0.947, 2.149, 2.773]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} />
       <mesh geometry={nodes.soccer.geometry} material={materials.soccer} position={[0.882, 0.07, -5.942]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.351} />
-      <mesh geometry={nodes.stick.geometry} material={materials['Material.001']} position={[-0.074, -0.231, 3.339]} scale={[0.016, 0.581, 0.016]} />
+      {/* <mesh geometry={nodes.stick.geometry} material={materials['Material.001']} position={[-0.074, -0.231, 3.339]} scale={[0.016, 0.581, 0.016]} /> */}
       <mesh geometry={nodes.string.geometry} material={materials.string} position={[-0.732, 3.483, -4.311]} rotation={[-Math.PI, 0, -Math.PI / 2]} />
       <mesh geometry={nodes.string001.geometry} material={materials.string} position={[-0.732, 3.437, -5.595]} rotation={[-Math.PI, 0, -Math.PI / 2]} />
       <mesh geometry={nodes.string002.geometry} material={materials.string} position={[-0.732, 3.53, -7.03]} rotation={[-Math.PI, 0, -Math.PI / 2]} />
@@ -83,7 +84,7 @@ export function Model({ characterRef, ...props }) {
       <mesh geometry={nodes.wave001.geometry} material={materials.wave} position={[0, 0.049, -13.7]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={1.612} />
       <mesh geometry={nodes.wave002.geometry} material={materials.wave} position={[0, 0.031, -16.195]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={1.612} />
       <mesh geometry={nodes.wave003.geometry} material={materials.wave} position={[0, 0.085, -19.452]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={1.612} />
-      <mesh geometry={nodes.airplane.geometry} material={materials.airplane} position={[0.232, 2.475, -13.761]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={1.793} />
+      <mesh ref={airplaneRef} geometry={nodes.airplane.geometry} material={materials.airplane} position={[0.232, 2.475, -13.761]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={1.793} />
       <mesh geometry={nodes.birds.geometry} material={materials.birds} position={[1.183, 1.566, -15.479]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} />
       <mesh geometry={nodes.birds001.geometry} material={materials.birds} position={[-0.646, 2.39, -18.913]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} />
       <mesh geometry={nodes.photo6.geometry} material={materials.photo6} position={[-0.751, 2.882, -16.096]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={2.45} />
@@ -97,9 +98,11 @@ export function Model({ characterRef, ...props }) {
       <mesh geometry={nodes.sand_castle.geometry} material={materials.sand_castle} position={[-0.826, 0.788, -21.02]} rotation={[2.077, 0.026, -1.711]} scale={1.506} />
       <mesh geometry={nodes.mom.geometry} material={materials.mom} position={[0.598, 0.577, -20.936]} rotation={[2.015, 0.091, -1.682]} />
       <mesh geometry={nodes.maple_chloe.geometry} material={materials.maple_chloe} position={[-0.438, 0.547, -20.778]} rotation={[2.036, -0.005, -1.643]} scale={0.817} />
-      <mesh geometry={nodes.motercycle.geometry} material={materials.motercycle} position={[0, 1.426, -23.319]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={1.151} />
-      <mesh geometry={nodes.motercycle_wheel.geometry} material={materials.motercycle_wheel} position={[0.037, 1.133, -23.808]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.443} />
-      <mesh geometry={nodes.motercycle_wheel001.geometry} material={materials.motercycle_wheel} position={[0.037, 1.121, -22.977]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.479} />
+      <group>
+        <mesh ref = {motercycleRef} geometry={nodes.motercycle.geometry} material={materials.motercycle} position={[0, 1.426, -23.319]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={1.151} />
+        <mesh ref = {motercycleFrontRef} geometry={nodes.motercycle_wheel.geometry} material={materials.motercycle_wheel} position={[0.037, 1.133, -23.808]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.443} />
+        <mesh ref = {motercycleBackRef} geometry={nodes.motercycle_wheel001.geometry} material={materials.motercycle_wheel} position={[0.037, 1.121, -22.977]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.479} />
+      </group>
       <mesh geometry={nodes.Ocean001.geometry} material={materials['Material.003']} position={[0, 1.1, -23.444]} scale={[1, 1, 1.146]} />
       <mesh geometry={nodes.photo8.geometry} material={materials.photo8} position={[-0.915, 2.86, -23.33]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={1.997} />
       <mesh geometry={nodes.photo11.geometry} material={materials.photo11} position={[-0.428, 4.127, -29.805]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={1.087} />

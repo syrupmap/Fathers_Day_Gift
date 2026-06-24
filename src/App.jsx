@@ -15,12 +15,13 @@ export default function App() {
         }}
       >
         
-        <ScrollControls pages={3}>
+        <ScrollControls pages={20}>
+          {/* scroll area is 20 screens tall so it takes 20x more scrolling to reach 1 from 0->1 */}
         <Experience />
       </ScrollControls>
       </Canvas>
 
-      <div style={{ height: '500vh' }} />
+      {/* <div style={{ height: '300vh' }} /> */}
     </>
     
   )
