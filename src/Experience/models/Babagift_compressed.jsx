@@ -7,7 +7,7 @@ import React from 'react'
 import { useGLTF, PerspectiveCamera } from '@react-three/drei'
 
 export function Model({ characterRef, bikeRef, frontWheelRef, backWheelRef, airplaneRef, motercycleRef, motercycleBackRef, motercycleFrontRef, ...props }) {
-  const { nodes, materials } = useGLTF('/babagift_compressed.glb')
+  const { nodes, materials } = useGLTF(`${import.meta.env.BASE_URL}babagift_compressed.glb`)
   return (
     <group {...props} dispose={null}>
       {/* <pointLight intensity={54351.413} decay={2} position={[4.076, 5.56, -1.005]} rotation={[-1.839, 0.602, 1.932]} /> */}
@@ -189,11 +189,10 @@ export function Model({ characterRef, bikeRef, frontWheelRef, backWheelRef, airp
       <mesh geometry={nodes.zipline.geometry} material={materials.zipline} position={[0, 4.604, -34.84]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.565} />
       <mesh geometry={nodes.tower2.geometry} material={materials.tower2} position={[-0.019, 0.923, -42.034]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={1.881} />
       <mesh geometry={nodes.tower1.geometry} material={materials.tower1} position={[-0.051, 3.67, -34.889]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={[2.767, 2.767, 3.391]} />
-      <mesh geometry={nodes.loopquote.geometry} material={materials.loopquote} position={[0, 3.929, -53.949]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={2.752} />
+      {/* <mesh geometry={nodes.loopquote.geometry} material={materials.loopquote} position={[0, 3.929, -53.949]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={2.752} /> */}
       <mesh geometry={nodes.photo14.geometry} material={materials.photo14} position={[-0.737, 5.243, -36.734]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={1.606} />
       <mesh geometry={nodes.photo13.geometry} material={materials.photo13} position={[0, 4.457, -38.062]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={1.781} />
     </group>
   )
 }
 
-useGLTF.preload('/babagift_compressed.glb')

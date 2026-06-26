@@ -4,6 +4,7 @@ import babel from '@rolldown/plugin-babel'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Fathers_Day_Gift/',
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
