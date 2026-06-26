@@ -1,18 +1,6 @@
-# React + Vite
+# Father's Day Gift!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website here: https://syrupmap.github.io/Fathers_Day_Gift/
+(✦థ ｪ థ) This might take a bit to load.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This interactive scrolling website is my 2026 Father's Day Gift! It took 5 days to complete! Uses vite and React Three Fiber. Drawing's were made by me on ibisPaint X, 3D models on Blender, deployed using gh-pages.  
