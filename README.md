@@ -4,7 +4,7 @@ Website here: https://syrupmap.github.io/Fathers_Day_Gift/
 
 (✦థ ｪ థ) This might take a bit to load.
 
-## What is this? 
+## About 
 This interactive scrolling website is my 2026 Father's Day Gift! It took 5 days to complete! Uses vite and React Three Fiber. Drawing's were made by me on ibisPaint X, 3D models on Blender, deployed using gh-pages.  
 <img width="1429" height="750" alt="Screenshot 2026-06-28 at 2 35 41 PM" src="https://github.com/user-attachments/assets/b646ceeb-3677-4da5-8ff1-670a4f4e2bef" />
 <img width="1429" height="750" alt="Screenshot 2026-06-28 at 2 35 51 PM" src="https://github.com/user-attachments/assets/122ff030-ef36-43ed-a572-b3ab31acac14" />
