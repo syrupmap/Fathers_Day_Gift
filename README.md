@@ -1,8 +1,10 @@
 # Father's Day Gift!
 
 Website here: https://syrupmap.github.io/Fathers_Day_Gift/
+
 (✦థ ｪ థ) This might take a bit to load.
 
+## What is this? 
 This interactive scrolling website is my 2026 Father's Day Gift! It took 5 days to complete! Uses vite and React Three Fiber. Drawing's were made by me on ibisPaint X, 3D models on Blender, deployed using gh-pages.  
 <img width="1429" height="750" alt="Screenshot 2026-06-28 at 2 35 41 PM" src="https://github.com/user-attachments/assets/b646ceeb-3677-4da5-8ff1-670a4f4e2bef" />
 <img width="1429" height="750" alt="Screenshot 2026-06-28 at 2 35 51 PM" src="https://github.com/user-attachments/assets/122ff030-ef36-43ed-a572-b3ab31acac14" />
@@ -20,10 +22,9 @@ This interactive scrolling website is my 2026 Father's Day Gift! It took 5 days 
 https://ibispaint.com/?lang=en-US 
 <img width="2362" height="1490" alt="IMG_9836" src="https://github.com/user-attachments/assets/2b65d91a-47fe-4320-b01a-29759d0a4fa1" />
 <img width="2388" height="1489" alt="IMG_9837" src="https://github.com/user-attachments/assets/f3a7e460-5504-4e0c-b5de-f5d449d87bcc" />
-<img width="3072" height="3072" alt="Untitled55_20260620175139" src="https://github.com/user-attachments/assets/069f907c-deec-4ff0-b50c-1eae0b8548b8" />
-<img width="3072" height="3072" alt="Untitled55_20260621000321" src="https://github.com/user-attachments/assets/ef288490-36ed-4c00-8627-70760d249252" />
-<img width="3072" height="3072" alt="Untitled55_20260621012506" src="https://github.com/user-attachments/assets/f7243d74-0e04-4b3e-a01a-8fa8b875e2fa" />
-<img width="3072" height="3072" alt="Untitled55_20260621044117" src="https://github.com/user-attachments/assets/577c0ff3-bcc4-4635-bde5-5b494a412d41" />
+<img width="500" height="500" alt="Untitled55_20260620175139" src="https://github.com/user-attachments/assets/069f907c-deec-4ff0-b50c-1eae0b8548b8" />
+<img width="500" height="500" alt="Untitled55_20260621000321" src="https://github.com/user-attachments/assets/ef288490-36ed-4c00-8627-70760d249252" />
+<img width="500" height="500" alt="Untitled55_20260621012506" src="https://github.com/user-attachments/assets/f7243d74-0e04-4b3e-a01a-8fa8b875e2fa" />
 
 ### 2. Import into blender as Mesh Planes 
 <img width="1506" height="867" alt="Screenshot 2026-06-28 at 2 48 35 PM" src="https://github.com/user-attachments/assets/2f4523cc-ff7e-4173-ad85-1c4a335f02cc" />
