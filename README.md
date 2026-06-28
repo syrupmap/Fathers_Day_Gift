@@ -22,9 +22,6 @@ This interactive scrolling website is my 2026 Father's Day Gift! It took 5 days 
 https://ibispaint.com/?lang=en-US 
 <img width="2362" height="1490" alt="IMG_9836" src="https://github.com/user-attachments/assets/2b65d91a-47fe-4320-b01a-29759d0a4fa1" />
 <img width="2388" height="1489" alt="IMG_9837" src="https://github.com/user-attachments/assets/f3a7e460-5504-4e0c-b5de-f5d449d87bcc" />
-<img width="500" height="500" alt="Untitled55_20260620175139" src="https://github.com/user-attachments/assets/069f907c-deec-4ff0-b50c-1eae0b8548b8" />
-<img width="500" height="500" alt="Untitled55_20260621000321" src="https://github.com/user-attachments/assets/ef288490-36ed-4c00-8627-70760d249252" />
-<img width="500" height="500" alt="Untitled55_20260621012506" src="https://github.com/user-attachments/assets/f7243d74-0e04-4b3e-a01a-8fa8b875e2fa" />
 
 ### 2. Import into blender as Mesh Planes 
 <img width="1506" height="867" alt="Screenshot 2026-06-28 at 2 48 35 PM" src="https://github.com/user-attachments/assets/2f4523cc-ff7e-4173-ad85-1c4a335f02cc" />
