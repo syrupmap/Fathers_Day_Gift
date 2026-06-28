@@ -32,7 +32,10 @@ https://ibispaint.com/?lang=en-US
 https://www.alpha3d.io/kb/3d-modelling/blender-glb/ 
 
 ### 4. CODE CODE CODE
-Built interactive expeirnece with React Three Fiber. Attached refs to animated objects, used useFrame() for real-time updates, syncronized animations with page scrolling. 
+Built interactive expeirnece with React Three Fiber. Attached refs to animated objects, used useFrame() for real-time updates, syncronized animations with page scrolling. Camera and character positions interpolated with THREE.MathUtils.lerp(), rotations use quaterinion interpolation (slerp) for smooth movement. Terrain elavation is handled by custom getLift function that smoothly raises and lowers the referenced objects as they travel in the scene. 
+<img width="200" height="86" alt="Screenshot 2026-06-28 at 3 18 25 PM" src="https://github.com/user-attachments/assets/40625ff1-2ac5-49cb-b796-09617e9d45f9" />
+
+
 <img width="1000" height="562" alt="df070d7b0411de712205a87f15ac5e61" src="https://github.com/user-attachments/assets/3c2a5c1d-8b75-4e14-8470-2c442b2d0030" />
 <img width="1107" height="825" alt="Screenshot 2026-06-28 at 2 52 57 PM" src="https://github.com/user-attachments/assets/8e3ca56f-d733-4bac-b20c-6395a05d58b7" />
 <img width="500" height="505" alt="pepe-meme-sweat-anxiety-0np3kosnjpxza1jq" src="https://github.com/user-attachments/assets/4e59bc73-ecd6-4cc3-8467-b0a6d4667142" />
