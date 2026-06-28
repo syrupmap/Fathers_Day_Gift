@@ -9,7 +9,7 @@ This interactive scrolling website is my 2026 Father's Day Gift! It took 5 days 
 <img width="1429" height="750" alt="Screenshot 2026-06-28 at 2 36 21 PM" src="https://github.com/user-attachments/assets/63bcc169-fa70-46d1-b4d6-84c75acb9ec6" />
 
 ##Sources
-https://youtu.be/zyWD2E8AHCg?si=ei__JLkwJljDqOT4
-https://youtu.be/AD01pTr3gvw?si=26jN0m0VtkjqQtWi
-https://youtu.be/1qpeo5ewz_8?si=hr1oulz5qehyw4K4
-https://youtu.be/58k6PLYnOuI?si=hWuU3QAWBqKU1971 (Didn't end up using but awesome video nonetheless) 
+- https://youtu.be/zyWD2E8AHCg?si=ei__JLkwJljDqOT4
+- https://youtu.be/AD01pTr3gvw?si=26jN0m0VtkjqQtWi
+- https://youtu.be/1qpeo5ewz_8?si=hr1oulz5qehyw4K4
+- https://youtu.be/58k6PLYnOuI?si=hWuU3QAWBqKU1971 (Didn't end up using but awesome video nonetheless) 
