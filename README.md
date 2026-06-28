@@ -34,7 +34,7 @@ https://www.alpha3d.io/kb/3d-modelling/blender-glb/
 <img width="1000" height="562" alt="df070d7b0411de712205a87f15ac5e61" src="https://github.com/user-attachments/assets/3c2a5c1d-8b75-4e14-8470-2c442b2d0030" />
 <img width="1107" height="825" alt="Screenshot 2026-06-28 at 2 52 57 PM" src="https://github.com/user-attachments/assets/8e3ca56f-d733-4bac-b20c-6395a05d58b7" />
 <img width="500" height="505" alt="pepe-meme-sweat-anxiety-0np3kosnjpxza1jq" src="https://github.com/user-attachments/assets/4e59bc73-ecd6-4cc3-8467-b0a6d4667142" />
-<img width="364" height="351" alt="Screenshot 2026-06-28 at 2 58 53 PM" src="https://github.com/user-attachments/assets/9c32164d-356a-4dcd-92f1-17ce25dccd2b" />
+<img width="500" height="505" alt="Screenshot 2026-06-28 at 2 58 53 PM" src="https://github.com/user-attachments/assets/9c32164d-356a-4dcd-92f1-17ce25dccd2b" />
 
 
 
